@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Wood Finishing Tutorials</title>
+    <link rel="stylesheet" th:href="@{/style2.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<h2>Welcome to Wood Finishing Tutorials</h2>
+<img th:src="@{/img/article-wood-stain.jpg}" alt="Wood stain Example">
+<p>Decorating with wood is a popular and economical way for you to make your home more beautiful, welcoming and comfortable.</p>
+<p>That's because adding a colorful stain to unfinished furniture, restoring the sheen to old hardwood floors or bringing out the natural beauty of paneling and trim is easier than you might expect. Just follow these three simple steps for a beautiful wood finish:</p>
+
+<p>Content taken from <a href="https://www.minwax.com/how-to-finish-wood/three-easy-steps-to-a-beautiful-finish/">here.</a></p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
